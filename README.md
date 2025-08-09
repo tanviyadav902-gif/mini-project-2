@@ -1,1 +1,10 @@
-# mini-project-2
+<img width="975" height="465" alt="image" src="https://github.com/user-attachments/assets/feac723a-c267-4b30-95b4-7cf8aa8909ab" />
+<img width="975" height="444" alt="image" src="https://github.com/user-attachments/assets/52ec7004-18f8-4b40-85bf-14288e7fc2cf" />
+<img width="975" height="257" alt="image" src="https://github.com/user-attachments/assets/3600f85d-1e44-4098-a0e3-590c0bcbbb65" />
+<img width="975" height="457" alt="image" src="https://github.com/user-attachments/assets/fe7b2b77-a4f3-489d-a284-8ef7ad3fcf54" />
+<img width="975" height="459" alt="image" src="https://github.com/user-attachments/assets/c438dbdc-3c95-4b6f-9b75-4d42cbc4a80e" />
+<img width="975" height="463" alt="image" src="https://github.com/user-attachments/assets/cd60445a-3b2d-4e3b-8c6f-cb7e3818fda2" />
+<img width="975" height="456" alt="image" src="https://github.com/user-attachments/assets/74949599-a265-45e7-94d4-9708c9d37ac2" />
+<img width="975" height="465" alt="image" src="https://github.com/user-attachments/assets/577fae8e-d146-463e-b5fe-37e27f5d7e22" />
+<img width="975" height="467" alt="image" src="https://github.com/user-attachments/assets/f837af8a-4d1e-45aa-aeab-80f197535328" />
+<img width="975" height="433" alt="image" src="https://github.com/user-attachments/assets/1439a60f-2b2b-443e-9c39-cdc031227b6d" />
