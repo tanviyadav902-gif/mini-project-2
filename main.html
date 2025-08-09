@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeautyCare App</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body id="mainpage">
+
+  <header>
+    <div id="head">
+    <h1>BeautyCare</h1>
+    <p>Your personal beauty assistant</p>
+    </div>
+    <p>
+            A mobile application that provides users with resources and tools to enhance and maintain their beauty and skincare.
+        </p>
+
+        <nav>
+        <a href="1.html">Home Page</a>
+        <a href="main.html">Main Page</a>
+        <a href="appointment.html">Book Appointment</a>
+        <a href="about.html">About</a>
+        </nav><br><br>
+  </header>
+
+  <section class="tip-section">
+    <h2> Daily Beauty Tip</h2>
+    <button onclick="showRandomTip()">Get Tip</button>
+    <p id="daily-tip">Click the button to get a tip!</p>
+  </section><br><br>
+
+
+  <section class="product-section">
+    <h2>Recommend a Product</h2>
+    <label for="skinType">Choose your skin type:</label>
+    <select id="skinType" onchange="recommendProduct()">
+      <option value="">-- Select --</option>
+      <option value="dry">Dry</option>
+      <option value="oily">Oily</option>
+      <option value="sensitive">Sensitive</option>
+      <option value="combination">Combination</option>
+    </select>
+    <p id="product-result"></p>
+  </section><br><br>
+
+  <section class="pro">
+  <h2 id="recommended">Products recommendation:</h2><br><br>
+  <a href="products.html">Products</a><br><br>
+  </section>
+
+  <section class="checklist-section">
+    <h2> Beauty Routine Checklist</h2>
+    <ul>
+      <li><input type="checkbox" id="cleanse"> Cleanse</li>
+      <li><input type="checkbox" id="tone"> Tone</li>
+      <li><input type="checkbox" id="moisturize"> Moisturize</li>
+      <li><input type="checkbox" id="spf"> Apply SPF</li>
+    </ul>
+  </section><br><br>
+
+
+  <footer>
+    <p>&copy; 2025 BeautyCare</p>
+  </footer>
+
+  <script src="1.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment - Beauty Care</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body id="appointmentpage">
+  <header>
+        <div id="head">
+            <h1>Beauty Care App</h1>
+            Your personal beauty assistant !
+        </div>
+        <p>
+            A mobile application that provides users with resources and tools to enhance and maintain their beauty and skincare.
+        </p>
+    <nav>
+      <a href="1.html">Home Page</a>
+      <a href="main.html">Main Page</a>
+      <a href="appointment.html">Book Appointment</a>
+      <a href="about.html">About</a>
+    </nav><br>
+  </header>
+
+  <section>
+    <h2 id="app">Book Your Appointment</h2>
+    <form id="appointmentForm">
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="service">Service:</label><br>
+      <select id="service" name="service" required>
+        <option value="">--Select--</option>
+        <option value="Facial">Facial</option>
+        <option value="Makeup">Makeup</option>
+        <option value="Hair Treatment">Hair Treatment</option>
+        <option value="Skin Consultation">Skin Consultation</option>
+      </select><br><br>
+
+      <label for="date">Preferred Date:</label><br>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="time">Preferred Time:</label><br>
+      <input type="time" id="time" name="time" required><br><br>
+
+      <button type="submit">Book Now</button>
+    </form>
+    <p id="confirmation" style="color:green; font-weight:bold;"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BeautyCare</p>
+  </footer>
+
+  <script>
+    document.getElementById("appointmentForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      document.getElementById("confirmation").textContent = 
+        "✅ Appointment booked successfully! We'll contact you soon.";
+      this.reset();
+    });
+  </script>
+</body>
+</html>

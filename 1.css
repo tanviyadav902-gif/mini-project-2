@@ -1,0 +1,124 @@
+#homepage {
+    background-image: url("https://i.pinimg.com/1200x/e1/33/8c/e1338c5eada618e492b5bf6198b875b0.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#head{
+    height: 100px;
+    width: 1500px;
+    background-color: rgb(197, 118, 137);
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    color: #234a23;
+    font-size: larger;
+}
+/* home */
+nav{
+    text-align: center;
+}
+a{
+    background-color: rgb(241, 146, 162);
+    border: 2px solid grey;
+    color:#333333;
+    text-decoration: none;
+    word-spacing: 2px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(233, 118, 137);
+}
+/* Main page */
+#mainpage {
+    background-image: url("https://i.pinimg.com/736x/e1/e0/05/e1e005c2b783acef810d8a022a6db08f.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: grey;
+}
+#daily-tip{
+    background-color: pink;
+    padding: 20px;
+    text-align: left;
+}
+#recommended{
+    text-align: left;
+}
+li{
+    text-align: left;
+}
+#product-result{
+    background-color: pink;
+    padding: 20px;
+    text-align: left;
+}
+.pro>a{
+    padding: 20px;
+}
+
+/* about */
+#about{
+    text-align: center;
+}
+/* recommended */
+div{
+    text-align: center;
+}
+#productpage{
+    background-image: url(https://i.pinimg.com/1200x/b2/73/8e/b2738e7c0fd43ee3dc3074f6c37072e7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    box-shadow: 10px 10px 10px 10px rgb(220, 77, 139);
+}
+#aboutpage{
+    background-image: url(https://i.pinimg.com/1200x/19/3f/9e/193f9e944e5c9d924e0bebd1682de1f8.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* appointment */
+form {
+    background: #ffe4ec;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+form button {
+    width: 100%;
+    background-color: #f192a2;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form button:hover {
+    background-color: #e37689;
+}
+#app{
+    text-align: center;
+}
+#appointmentpage{
+    background-image: url(https://i.pinimg.com/1200x/72/64/a2/7264a2c2bb7674f3dcdd382976dbd6bd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
